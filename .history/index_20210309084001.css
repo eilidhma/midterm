@@ -1,0 +1,18 @@
+html, body {
+  margin:0;
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  position: relative;
+  width: 414px;
+  height: 100%;
+  align-self: center;
+  background: linear-gradient(180deg, #367A17 0%, #DAE9B0 30.21%, #EBE790 36.98%, #D67657 91.15%);
+}

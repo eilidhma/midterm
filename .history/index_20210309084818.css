@@ -1,0 +1,29 @@
+html, body {
+  margin:0;
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  position: relative;
+  width: 414px;
+  height: 500px;
+  align-self: center;
+  background-color: #F6F6F6;
+}
+
+#box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#box img {
+  display: flex;
+  width: 100%;
+}

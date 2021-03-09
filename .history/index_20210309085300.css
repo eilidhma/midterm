@@ -1,0 +1,40 @@
+html, body {
+  margin:0;
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  position: relative;
+  width: 414px;
+  height: 100%;
+  align-self: center;
+  background-color: #F6F6F6;
+  padding: 30px;
+}
+
+#box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#box img {
+  display: flex;
+  width: 100%;
+}
+
+#button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #367A17;
+  color: white;
+  width: 60%;
+  border
+}
